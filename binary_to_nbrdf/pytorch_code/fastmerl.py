@@ -176,7 +176,7 @@ class Merl:
 
 		ret = []
 		for color in range(0,3):
-			ret += [self.brdf_np[(ind + color*stride).astype(np.int)] * self.scale[color]]
+			ret += [self.brdf_np[(ind + color*stride).astype(int)] * self.scale[color]]
 
 		return np.array(ret)
 	

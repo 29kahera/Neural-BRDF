@@ -1,5 +1,3 @@
-from keras.models import model_from_json
-import pyexr
 import numpy as np
 import coords
 
@@ -11,6 +9,7 @@ def save_model(model, h5, json=None):
 		f.write(model.to_json())
 
 def load_model(h5, json=None):
+	from keras.models import model_from_json
 	if (json == None):
 		json = h5.replace('.h5', '.json')
 	with open(json, 'r') as f:
