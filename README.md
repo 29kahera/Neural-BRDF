@@ -77,3 +77,4 @@ If you find our work useful, please cite:
 
 ### Contact
 If you have any questions, please email Alejandro Sztrajman at a.sztrajman@ucl.ac.uk.
+# BRDFResearch
